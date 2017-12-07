@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="Freights.Implementation.IncidenceService" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Freights.Implementacion.IncidenceService" %>

@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="Freights.Implementation.DriverService"  %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Freights.Implementacion.DriverService"  %>

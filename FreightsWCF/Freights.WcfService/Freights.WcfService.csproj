@@ -72,6 +72,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\FreightsService - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,29 +81,29 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Freights.Contract\Freights.Contract.csproj">
-      <Project>{809033ED-90EC-4DF2-BD4B-8E9C23FE2C0F}</Project>
-      <Name>Freights.Contract</Name>
+    <ProjectReference Include="..\Freights.ContratoRepositorio\Freights.ContratoRepositorio.csproj">
+      <Project>{72f165bc-6fec-4e8a-a13c-02a0371db33e}</Project>
+      <Name>Freights.ContratoRepositorio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Freights.Domain\Freights.Domain.csproj">
-      <Project>{383abca2-000d-4569-a361-4cb437c1bce0}</Project>
-      <Name>Freights.Domain</Name>
+    <ProjectReference Include="..\Freights.Contrato\Freights.Contrato.csproj">
+      <Project>{934ea2a6-7b6b-43bd-8cca-1704e7bbc55e}</Project>
+      <Name>Freights.Contrato</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Freights.Facade\Freights.Facade.csproj">
-      <Project>{01c0a6ad-4db2-43eb-9f0e-46ead9a321e1}</Project>
-      <Name>Freights.Facade</Name>
+    <ProjectReference Include="..\Freights.Dominio\Freights.Dominio.csproj">
+      <Project>{6020d951-bd10-439c-a540-0fe83358aae5}</Project>
+      <Name>Freights.Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Freights.Implementation\Freights.Implementation.csproj">
-      <Project>{bab0c736-8eed-49bd-bb0e-8eed43864014}</Project>
-      <Name>Freights.Implementation</Name>
+    <ProjectReference Include="..\Freights.Fachada\Freights.Fachada.csproj">
+      <Project>{3c5aba34-0016-4952-8dc0-193740e4fe95}</Project>
+      <Name>Freights.Fachada</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Freights.RepositoryContract\Freights.RepositoryContract.csproj">
-      <Project>{0afe87b8-a3f5-4dd0-a174-9010881900ad}</Project>
-      <Name>Freights.RepositoryContract</Name>
+    <ProjectReference Include="..\Freights.Implementacion\Freights.Implementacion.csproj">
+      <Project>{ab5bc053-ee70-48fa-aa5c-1473573844b8}</Project>
+      <Name>Freights.Implementacion</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Freights.SqlRepository\Freights.SqlRepository.csproj">
-      <Project>{e3987d1e-1a2b-4546-8156-c3c89eb123f1}</Project>
-      <Name>Freights.SqlRepository</Name>
+    <ProjectReference Include="..\Freights.RepositorioSQL\Freights.RepositorioSQL.csproj">
+      <Project>{ee120272-289e-4bd5-acc3-a6d92c12c63c}</Project>
+      <Name>Freights.RepositorioSQL</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
